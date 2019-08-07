@@ -11,7 +11,6 @@ fetch(url)
         
         var pokeName = document.createElement("h1")
         pokeName.innerHTML = eachpokemon.name
-        console.log(eachpokemon.name)
         newBox.appendChild(pokeName)
 
         document.getElementById("content").appendChild(newBox)
